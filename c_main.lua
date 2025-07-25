@@ -34,6 +34,6 @@ CreateThread(function()
             onEnteredInterior(interiorId)
         end
         previousInteriorId = interiorId
-        Wait(0)
+        Wait(100)
     end
 end)
